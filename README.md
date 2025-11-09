@@ -1,1 +1,91 @@
-# Running-Tracker-Widget
+# Activity Tracker Widget  
+*A compact Arduino-based wearable for tracking pace, distance, and run duration.*
+
+---
+
+## Overview
+The **Activity Tracker Widget** is a portable, battery-powered device designed to measure and display **running metrics** such as **pace**, **distance**, and **elapsed time**.  
+Built around the **Arduino Pro Mini**, this system integrates GPS positioning, user controls, and a display interface to deliver accurate real-time tracking data in a lightweight form factor.  
+
+This project highlights hands-on skills in **embedded systems**, **circuit design**, and **hardware integration**, forming a complete end-to-end electrical engineering prototype.
+
+---
+
+## System Features
+- **Arduino Pro Mini Core** – Compact 5V microcontroller board for low-power applications  
+- **Adafruit Ultimate GPS Module** – Provides accurate positional data (lat/lon, altitude, speed, and time)  
+- **LCD Display with Adjustable Resistor** – Displays pace, distance, and time in real-time  
+- **Pololu LV Power Switch** – Enables safe and efficient power management for battery use  
+- **User Input Buttons** – Right-angle momentary push buttons for start/stop and mode navigation  
+- **Passive Components** – Decoupling capacitors and precision resistors for signal stability and protection  
+- **9V Battery Snap Connector** – Supports portable power input with quick connection  
+
+---
+
+## Bill of Materials (BOM)
+
+You can view the full interactive BOM spreadsheet here:  
+👉 [**Activity Tracker BOM – Google Sheets**](https://docs.google.com/spreadsheets/d/1K8hnZxM_uvlQHoKbDLqF4HMeN-K64aBrFmz2bAP7tQE/edit?usp=sharing)
+
+| # | Component | Manufacturer | MPN | Qty | Description / Notes |
+|---|-----------|--------------|------|-----|----------------------|
+| 1 | Arduino Pro Mini Socket | SparkFun | DEV-11113 | 1 | 5V, 16MHz, core microcontroller board |
+| 2 | Adafruit Ultimate GPS | Adafruit | 746 | 1 | High-accuracy GPS module with integrated antenna |
+| 3 | Pololu LV Power Switch | Pololu | 2808 | 1 | Low-voltage switch for efficient battery control |
+| 4 | LCD + Variable Resistor | Adafruit | 181 | 1 | Display and control interface |
+| 5 | Right Angle Push Button | C&K | 611-KSS223GLFG | 3 | User input buttons |
+| 6 | Capacitor 10µF | Samsung | CL05A106MP5NUNC | 1 | Power line stabilization |
+| 7 | Capacitor 0.1µF | Murata | GRM033C71C104KE14D | 1 | Signal filtering |
+| 8 | Resistor 220Ω | Bourns | CR01005AFW4702GA | 1 | Current limiting |
+| 9 | Resistor 10kΩ | Bourns | PWR6927W1002FE | 3 | Voltage division and logic pull-ups |
+| 10 | 9V Battery Snap | Bourns | LS-00033 | 1 | Power supply connector |
+
+---
+
+## Functional Overview
+1. **GPS Data Acquisition:** The Adafruit GPS module provides NMEA data for time, position, and velocity.  
+2. **Microcontroller Processing:** The Arduino Pro Mini calculates pace and distance based on GPS data.  
+3. **User Interaction:** Push buttons allow start/stop control and data viewing.  
+4. **Display Output:** The LCD module shows real-time run statistics.  
+5. **Power Regulation:** The Pololu switch ensures stable and safe power control from a 9V source.
+
+---
+
+## Technical Specifications
+- **Operating Voltage:** 5V  
+- **Input Power:** 9V battery (via snap connector)  
+- **Microcontroller:** ATmega328P (Arduino Pro Mini)  
+- **Display Interface:** Parallel/Serial LCD  
+- **Sensors:** GPS (Adafruit Ultimate GPS)  
+- **User Inputs:** 3x push buttons  
+- **Enclosure:** Compatible with 3D-printed housing or handheld casing  
+
+---
+
+## Development Tools
+- **IDE:** Arduino IDE  
+- **Language:** C/C++  
+- **Libraries:** `Adafruit_GPS`, `LiquidCrystal`, `SoftwareSerial`  
+- **Simulation / Schematic:** KiCad or EasyEDA  
+
+---
+
+## Future Enhancements
+- Add accelerometer or IMU sensor for step-based distance correction  
+- Integrate Bluetooth for mobile sync  
+- Log data to microSD for long-term performance tracking  
+- Optimize firmware for lower power consumption  
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use and modify with attribution.
+
+---
+
+## Author
+**[Ziegen Ludwig]**  
+Electrical Engineering Student | Embedded Systems Developer  
+🔧 *Focused on IoT, microcontroller design, and wearable electronics.*
+
