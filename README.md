@@ -74,13 +74,30 @@ You can view the full interactive BOM spreadsheet here:
 - Add accelerometer or IMU sensor for step-based distance correction  
 - Integrate Bluetooth for mobile sync  
 - Log data to microSD for long-term performance tracking  
-- Optimize firmware for lower power consumption  
+- Optimize firmware for lower power consumption
+
+---
+
+### PCB Manufacturing
+The PCB layout and Gerber files were created following **[3DayPCBs](https://3daypcbs.com)** standard manufacturing specifications.  
+Key parameters include:
+- 1.6 mm board thickness  
+- 1 oz copper weight  
+- 6 mil minimum trace/space  
+- Standard FR-4 substrate  
+- Through-hole and SMD mixed design  
+
+Compatibility with other PCB manufacturers may require DRC rule adjustments.
 
 ---
 
 ## License
 This project is licensed under the [MIT License](LICENSE).  
 Feel free to use and modify with attribution.
+
+**PCB Design Notice:**  
+All PCB and Gerber files included in this repository are designed according to **[3DayPCBs](https://3daypcbs.com)** manufacturing specifications, including board thickness, copper weight, trace width, and drill tolerances.  
+Users adapting the design for other manufacturers should verify compatibility and adjust design rules accordingly.
 
 ---
 
