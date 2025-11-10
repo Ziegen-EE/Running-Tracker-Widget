@@ -101,6 +101,15 @@ Users adapting the design for other manufacturers should verify compatibility an
 
 ---
 
+## Acknowledgments
+
+This project makes use of the [Arduino KiCad Library](https://github.com/Alarm-Siren/arduino-kicad-library)  
+by **Alarm-Siren**, distributed under the [MIT License](https://github.com/Alarm-Siren/arduino-kicad-library/blob/main/LICENSE).
+
+The library was used for schematic and footprint references during PCB design.
+
+---
+
 ## Author
 **[Ziegen Ludwig]**  
 Electrical Engineering Student | Embedded Systems Developer  
