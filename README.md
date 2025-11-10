@@ -110,6 +110,16 @@ The library was used for schematic and footprint references during PCB design.
 
 ---
 
+## Sponsorship & Support
+
+This project is proudly supported by the  
+**[School District 38 CTE (Career & Technical Education) Program](https://www.lewispalmer.org/cte)**.  
+
+Their sponsorship provided access to electronic components, fabrication tools, and resources essential for the development and testing of the Activity Tracker Widget.  
+Special thanks to the instructors and staff who promote hands-on STEM and engineering education.
+
+---
+
 ## Author
 **[Ziegen Ludwig]**  
 Electrical Engineering Student | Embedded Systems Developer  
