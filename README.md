@@ -25,7 +25,7 @@ This project highlights hands-on skills in **embedded systems**, **circuit desig
 ## Bill of Materials (BOM)
 
 You can view the full interactive BOM spreadsheet here:  
-👉 [**Activity Tracker BOM – Google Sheets**](https://docs.google.com/spreadsheets/d/1K8hnZxM_uvlQHoKbDLqF4HMeN-K64aBrFmz2bAP7tQE/edit?usp=sharing)
+👉 [**Running Tracker BOM – Google Sheets**](https://docs.google.com/spreadsheets/d/1CWu7IO52Xdz1FhUTgCzN4FMrNsjh3O-xI5pumeO5So4/edit?usp=sharing)
 
 | # | Component | Manufacturer | MPN | Qty | Description / Notes |
 |---|-----------|--------------|------|-----|----------------------|
