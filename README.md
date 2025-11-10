@@ -1,10 +1,10 @@
-# Activity Tracker Widget  
+# Running Tracker Widget  
 *A compact Arduino-based wearable for tracking pace, distance, and run duration.*
 
 ---
 
 ## Overview
-The **Activity Tracker Widget** is a portable, battery-powered device designed to measure and display **running metrics** such as **pace**, **distance**, and **elapsed time**.  
+The **Running Tracker Widget** is a portable, battery-powered device designed to measure and display **running metrics** such as **pace**, **distance**, and **elapsed time**.  
 Built around the **Arduino Pro Mini**, this system integrates GPS positioning, user controls, and a display interface to deliver accurate real-time tracking data in a lightweight form factor.  
 
 This project highlights hands-on skills in **embedded systems**, **circuit design**, and **hardware integration**, forming a complete end-to-end electrical engineering prototype.
