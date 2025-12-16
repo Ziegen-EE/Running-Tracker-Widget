@@ -34,10 +34,10 @@ You can view the full interactive BOM spreadsheet here:
 | 3 | Pololu LV Power Switch | Pololu | 2808 | 1 | Low-voltage switch for efficient battery control |
 | 4 | LCD + Variable Resistor | Adafruit | 181 | 1 | Display and control interface |
 | 5 | Right Angle Push Button | C&K | 611-KSS223GLFG | 3 | User input buttons |
-| 6 | Capacitor 10µF | Samsung | CL05A106MP5NUNC | 1 | Power line stabilization |
-| 7 | Capacitor 0.1µF | Murata | GRM033C71C104KE14D | 1 | Signal filtering |
-| 8 | Resistor 220Ω | Bourns | CR01005AFW4702GA | 1 | Current limiting |
-| 9 | Resistor 10kΩ | Bourns | PWR6927W1002FE | 3 | Voltage division and logic pull-ups |
+| 6 | Capacitor 10µF | TAIYO YUDEN | MCASL21GBB7106KTNA01 | 1 | Power line stabilization |
+| 7 | Capacitor 0.1µF | KYOCERA AVX | KAM21BR71H104JM | 1 | Signal filtering |
+| 8 | Resistor 220Ω | Panasonic | ERJ-S06F2200V | 1 | Current limiting |
+| 9 | Resistor 10kΩ | KOA Speer | SG73P2ARTTD103G | 3 | Voltage division and logic pull-ups |
 | 10 | 9V Battery Snap | Bourns | LS-00033 | 1 | Power supply connector |
 
 ---
