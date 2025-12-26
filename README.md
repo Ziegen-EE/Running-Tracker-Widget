@@ -118,6 +118,25 @@ This project is proudly supported by the
 Their sponsorship provided access to electronic components, fabrication tools, and resources essential for the development and testing of the Activity Tracker Widget.  
 Special thanks to the instructors and staff who promote hands-on STEM and engineering education.
 
+## PCB Manufacturing Support
+
+PCB fabrication for this project can be reliably handled by **PCBWay**, a professional PCB manufacturing and assembly service widely used for prototyping and medium to large-scale production.
+
+PCBWay is well-suited for projects like my **Running Tracker Widget**, which combine through-hole and SMD components in a compact embedded design. Their capabilities support iterative hardware development and manufacturing constraints common in wearable and portable electronics.
+
+### Relevant Capabilities
+- Standard **FR-4 PCB fabrication** with configurable thickness and copper weight  
+- Support for **mixed through-hole and SMD designs**  
+- Optional **PCB assembly (PCBA)** for populated boards  
+- Fast turnaround times suitable for prototyping and validation  
+
+Design files created for this project are adapted for 3DayPCBs, although manufacturing specifications are well within their capabilities!!!
+
+Additional information is available at:  
+👉 **https://www.pcbway.com**
+
+PCBWay actively supports open-source hardware projects and educational engineering development.
+
 ---
 
 ## Author
